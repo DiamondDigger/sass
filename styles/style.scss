@@ -2,5 +2,7 @@
 @import './header';
 
 .contact {
-    @include flexCenter(column, $infoBtn, $primaryBtn);
+    @extend header;
+    background: rgb(230, 216, 32);
+    color: rgb(44, 115, 221);
 }
