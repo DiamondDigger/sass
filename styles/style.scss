@@ -1,20 +1,5 @@
-$primaryBtn: rgb(236, 227, 92);
-$infogBtn: rgb(30, 219, 204);
-$textColor: rgb(190, 174, 174);
-
-
-header {
-    background: lightblue;
-    display: flex;
-    justify-content: center;
-    color: $textColor;
-    button {
-        background: $primaryBtn;
-        &:hover {
-            background: rgb(13, 243, 5);
-        }
-    }
-}
+@import './variables';
+@import './header';
 
 .contact button {
     background: $infogBtn;
