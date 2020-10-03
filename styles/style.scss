@@ -8,10 +8,12 @@ header {
     display: flex;
     justify-content: center;
     color: $textColor;
-}
-
-header button {
-    background: $primaryBtn;
+    button {
+        background: $primaryBtn;
+        &:hover {
+            background: rgb(13, 243, 5);
+        }
+    }
 }
 
 .contact button {
