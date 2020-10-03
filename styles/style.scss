@@ -1,5 +1,19 @@
+$primaryBtn: rgb(236, 227, 92);
+$infogBtn: rgb(30, 219, 204);
+$textColor: rgb(190, 174, 174);
+
+
 header {
     background: lightblue;
     display: flex;
     justify-content: center;
+    color: $textColor;
+}
+
+header button {
+    background: $primaryBtn;
+}
+
+.contact button {
+    background: $infogBtn;
 }
